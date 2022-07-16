@@ -13,7 +13,7 @@ echo $id;
 
 <div class="container mt-5">
     <div class="row">
-        <div class="col">
+        <div style="color: #804d1b;" class="col">
         <h1><?php echo $produtos[$id]['nome']; ?></h1>
         <p><?php echo $produtos[$id]['autor']; ?></p>
         <img src="./content/<?php echo $produtos [$id] ['imagem']; ?>">
@@ -23,10 +23,10 @@ echo $id;
      
     <div class="row">
         <div class="col">
-        <a href="index.php"><button type="button" class="btn btn-primary">Voltar</button></a>
+        <a style="background-color: #804d1b; border: none;" href="index.php?" class="btn btn-primary">Voltar</a>
         </div>
         <div class="col">
-        <a href="contato.php"><button type="button" class="btn btn-primary">Comprar</button></a>
+        <a style="background-color: #804d1b; border: none;" href="comprar.php" class="btn btn-primary">Comprar</a>
         </div>
     </div>
 
