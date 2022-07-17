@@ -16,17 +16,21 @@ echo $id;
         <div style="color: #804d1b;" class="col">
         <h1><?php echo $produtos[$id]['nome']; ?></h1>
         <p><?php echo $produtos[$id]['autor']; ?></p>
+        <img style="height: 2rem; width: 9rem; margin-bottom: 1rem;" src="./estrelas/<?php echo $produtos [$id] ['avaliacao']; ?>">
+        <div>
         <img src="./content/<?php echo $produtos [$id] ['imagem']; ?>">
-        <h5><?php echo $produtos[$id]['preço']; ?></h5>
+        <p style="margin: 2rem 2rem 2rem 0;"><?php echo $produtos[$id]['sinopse']; ?></p>
+        <h5 style="margin: 2rem 2rem 2rem 0;"><?php echo $produtos[$id]['preço']; ?></h5>
+        </div>
         </div>
     </div>
      
     <div class="row">
         <div class="col">
-        <a style="background-color: #804d1b; border: none;" href="index.php?" class="btn btn-primary">Voltar</a>
+        <a style="background-color: #804d1b; border: none;" href="./comprar.php" class="btn btn-primary">Comprar</a>
         </div>
         <div class="col">
-        <a style="background-color: #804d1b; border: none;" href="comprar.php" class="btn btn-primary">Comprar</a>
+        <a style="background-color: #804d1b; border: none;" href="index.php?" class="btn btn-primary">Voltar</a>
         </div>
     </div>
 

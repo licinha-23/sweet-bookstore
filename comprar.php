@@ -36,7 +36,7 @@ if (isset ( $_POST['txtName']) ) {
     $email = $_POST['txtemail'];
     $telefone = $_POST['txtPhone'];
     $mensagem = $_POST['txtEndereco'];
-    echo '/.pagamento.php';
+    echo './pagamento.php';
 }
 
 ?>

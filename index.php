@@ -12,7 +12,7 @@ include_once './includes/_dados.php';
 
  for ($i=7; $i < 10; $i++) {
  ?>
- <div class="card" style="width: 18rem; padding: 2rem; margin: 2rem; background-color: #e4dbd4;  color: #804d1b;">
+ <div class="card" style="width: 18rem; padding: 2rem; margin: 2rem; background-color: #dcc3a8;  color: #804d1b;">
    <img class="card-img-top" style='height: 250px;'src="./content/<?php echo $produtos[$i]['imagem'];?>" alt="Card image cap">
     <div class="card-body">
      <h5 class="card-title"><?php echo $produtos[$i]['nome']; ?></h5>
