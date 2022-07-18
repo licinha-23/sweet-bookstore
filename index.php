@@ -5,11 +5,10 @@ include_once './includes/_dados.php';
 ?>
 
 <div class="container">
-    <h2 style="color: #804d1b; padding: 1rem; text-align: center;">Promoções do Dia</h2>
+    <h2 style="color: #804d1b; padding: 1rem; text-align: center; font-family: Times New Roman, Times, Serif;"">Promoções do Dia</h2>
     <div class="row mt-5">
 
-    <?php 
-
+<?php 
  for ($i=7; $i < 10; $i++) {
  ?>
  <div class="card" style="width: 18rem; padding: 2rem; margin: 1rem; background-color: #dcc3a8;  color: #804d1b;">

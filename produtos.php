@@ -4,13 +4,28 @@ include_once './includes/_header.php';
 include_once './includes/_dados.php';
 ?>
 
-<div class="container">
-    <h2 style="color: #804d1b; padding: 1rem; text-align: center;">Produtos</h2>
+    <h2 style="color: #804d1b; padding: 1rem; text-align: center; font-family: Times New Roman, Times, Serif;"">Produtos</h2>
+
+    <aside style="background-color: #dcc3a8; width: 20rem; height: 150rem; float: left; margin: 1rem; margin-top: 3rem;">
+    
+    <form action="./_dados.php" method="get">
+    <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="TxtRomance">
+  <label class="form-check-label" for="TxtRomance">Romance</label>
+</div>
+</form>
+
+</aside>
+
+    <div class="container">
     <div class="row mt-5">
 
+    
 <?php 
 foreach ($produtos as $key => $value) {
 ?>
+
+
     
     <div class="card m-3" style="width: 18rem; padding: 2rem; margin: 2rem; background-color: #dcc3a8;  color: #804d1b;">
     <img src="./content/<?php echo $value['imagem']; ?>" class="card-img-top" alt="...">

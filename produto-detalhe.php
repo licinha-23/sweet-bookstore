@@ -14,7 +14,7 @@ echo $id;
 <div class="container mt-5">
     <div class="row">
         <div style="color: #804d1b;" class="col">
-        <h1><?php echo $produtos[$id]['nome']; ?></h1>
+        <h1 style="font-family: Times New Roman, Times, Serif;"><?php echo $produtos[$id]['nome']; ?></h1>
         <p><?php echo $produtos[$id]['autor']; ?></p>
         <img style="height: 2rem; width: 9rem; margin-bottom: 1rem;" src="./estrelas/<?php echo $produtos [$id] ['avaliacao']; ?>">
         <div>

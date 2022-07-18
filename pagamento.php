@@ -4,7 +4,7 @@ include_once './includes/_header.php';
 include_once './includes/_dados.php';
 ?>
 
-<h2 style="color: #804d1b; padding: 1rem; text-align: center;">Escolha o Método de Pagamento</h2>
+<h2 style="color: #804d1b; padding: 1rem; text-align: center; font-family: Times New Roman, Times, Serif;"">Escolha o Método de Pagamento</h2>
 
 <div style="padding: 1rem; text-align: center;">
     <a style="background-color: transparent; margin: 1rem; border: none;" class="btn btn-primary" href="<?php echo './pix.php'; ?>" role="button"><img style="height: 7rem; width: 7rem;" src="https://logospng.org/download/pix/logo-pix-1024.png" alt="pix"></a>

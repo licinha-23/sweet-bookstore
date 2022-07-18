@@ -5,7 +5,7 @@ include_once './includes/_dados.php';
 ?>
 
 
-<h2 style="color: #804d1b; padding: 1rem; text-align: center;">Preencha com seus Dados</h2>
+<h2 style="color: #804d1b; padding: 1rem; text-align: center; font-family: Times New Roman, Times, Serif;"">Preencha com seus Dados</h2>
 <form action="./pagamento.php" method="post">
     <ul style="color: #804d1b;">
         <li class="form-group">
