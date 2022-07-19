@@ -18,3 +18,4 @@
 </header>
 
 <main style="background-color: #e4dbd4;">
+<img style="float: right; width: 17rem" src="./design/livro.png" alt="">

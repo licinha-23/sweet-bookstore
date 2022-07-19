@@ -6,8 +6,8 @@ include_once './includes/_dados.php';
 
 <h2 style="color: #804d1b; padding: 1rem; text-align: center; font-family: Times New Roman, Times, Serif;"">Escolha o Método de Pagamento</h2>
 
-<div style="padding: 1rem; text-align: center;">
-    <a style="background-color: transparent; margin: 1rem; border: none;" class="btn btn-primary" href="<?php echo './pix.php'; ?>" role="button"><img style="height: 7rem; width: 7rem;" src="https://logospng.org/download/pix/logo-pix-1024.png" alt="pix"></a>
+<div style="padding: 1rem; margin-left: 23rem;">
+    <a style="background-color: transparent; margin: 1rem; border: none;" class="btn btn-primary" href="<?php echo './pix.php'; ?>" role="button"><img style="height: 3rem; width: 7rem;" src="./design/pix.png" alt="pix"></a>
     <h5 style="color: #804d1b;">Pix</h5>
     <a style="background-color: transparent; margin: 1rem; border: none;" class="btn btn-primary" href="<?php echo './cartao.php'; ?>" role="button"><img style="height: 5rem; width: 7rem;" src="https://cdn.pixabay.com/photo/2018/06/20/18/05/bank-3487033_960_720.png" alt="cartão de crédito"></a>
     <h5 style="color: #804d1b;">Cartão de Crédito</h5>

@@ -1,12 +1,13 @@
 
-
+<div style="background-color: #e4dbd4; height: 14rem;" >
+<img style="float: left; width: 17rem; height: 14rem;" src="./design/livro-footer.png" alt="">
+</div>
 </main>
 
 
-<footer>
+<footer style="background-color: #c1997e; font-family: Times New Roman, Times, Serif; height: 7rem;">
 
 </footer>
-
 
 
 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

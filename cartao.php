@@ -5,7 +5,7 @@ include_once './includes/_dados.php';
 ?>
 
 <form action="./cartao.php" method="post">
-    <ul style="color: #804d1b; text-align: center; margin: 0rem 4rem 1rem 4rem; padding: 3rem;">
+    <ul style="color: #804d1b; text-align: center; margin: 0rem 4rem 1rem 4rem; padding: 4rem 7rem 7rem 7rem;">
         <label for="txtNumero">Número do Cartão</label>
         <input type="text" name="txtNumero" id="txtNumero">
         <label for="txtTitular">Nome do Titular</label>
@@ -28,4 +28,8 @@ if (isset ( $_POST['txtNumero']) ) {
     $mensagem = $_POST['txtVencimento'];
     echo '<h5 style="color: #804d1b; text-align: center; padding: 1rem;">Cartão cadastrado com sucesso! Enviaremos um e-mail com as atualizações do seu pedido assim que o pagamento for confirmado.</h5>';
 }
+?>
 
+<?php
+include_once './includes/_footer.php';
+?>
