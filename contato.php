@@ -7,7 +7,7 @@ include_once './includes/_dados.php';
 
 <h2 style="color: #804d1b; padding: 1rem; text-align: center; font-family: Times New Roman, Times, Serif;"">Venda Seus Livros Conosco!</h2>
 <form action="./contato.php" method="post">
-    <ul style="color: #804d1b;">
+    <ul style="color: #804d1b; margin: 0;">
         <li class="form-group">
         <label for="txtNome">Nome Completo</label>
         <input type="text" name="txtNome" id="txtNome">

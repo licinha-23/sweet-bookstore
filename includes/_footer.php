@@ -1,11 +1,14 @@
 
-<div style="background-color: #e4dbd4; height: 14rem;" >
-<img style="float: left; width: 17rem; height: 14rem;" src="./design/livro-footer.png" alt="">
-</div>
 </main>
 
 
-<footer style="background-color: #c1997e; font-family: Times New Roman, Times, Serif; height: 7rem;">
+<footer>
+
+<div style="background-color: #e4dbd4; height: 14rem;" >
+<img style="float: left; width: 17rem; height: 14rem;" src="./design/livro-footer.png" alt="">
+</div>
+
+<div style="background-color: #c1997e; font-family: Times New Roman, Times, Serif; height: 7rem;"></div>
 
 </footer>
 

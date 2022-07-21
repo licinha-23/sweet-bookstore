@@ -5,7 +5,7 @@ include_once './includes/_dados.php';
 ?>
 
 <form action="./cartao.php" method="post">
-    <ul style="color: #804d1b; text-align: center; margin: 0rem 4rem 1rem 4rem; padding: 4rem 7rem 7rem 7rem;">
+    <ul style="color: #804d1b; text-align: center; margin: 0rem 4rem 0rem 4rem; padding: 4rem 7rem 7rem 7rem;">
         <label for="txtNumero">Número do Cartão</label>
         <input type="text" name="txtNumero" id="txtNumero">
         <label for="txtTitular">Nome do Titular</label>
